@@ -153,3 +153,4 @@ Agent(
 ---
 
 > 💡 **Candilyzer is your AI hiring expert. Use it to save time, reduce bias, and get straight to the point.**
+> ** BY SAMEER KUMAR MISHRA **
