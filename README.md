@@ -1,149 +1,78 @@
-🚀 Candilyzer Enterprise ATS
-🧠 AI-Powered Hiring Intelligence Platform
+# 🧠 Candilyzer Enterprise — AI Hiring Intelligence Platform
 
-Built by Sameer Kumar Mishra
+🚀 Built by **Sameer Kumar Mishra**
 
-🌟 Overview
+Candilyzer Enterprise is a modern AI-powered Applicant Tracking System (ATS) designed to help recruiters analyze candidates faster, automate hiring workflows, and make data-driven decisions using AI.
 
-Candilyzer Enterprise is a startup-level AI Applicant Tracking System (ATS) designed to help recruiters analyze candidates faster, smarter, and more accurately using AI.
+This platform combines resume intelligence, analytics dashboards, and hiring automation into one seamless experience.
 
-It combines LLM intelligence, analytics dashboards, authentication, and hiring workflow tools into a single platform.
+---
 
-This project demonstrates real-world skills in AI engineering, full-stack development, data analytics, and product design.
+## 🌟 Features
 
-🎯 Key Features
+### 🤖 AI Resume Intelligence
+- Automated resume analysis
+- AI candidate scoring
+- Skill extraction
+- Interview question generation
+- AI hiring feedback emails
 
-✅ AI Resume Analysis with scoring
-✅ Candidate comparison tool
-✅ Interactive hiring analytics dashboard
-✅ Recruiter authentication system
-✅ Resume chat assistant
-✅ Interview question generator
-✅ AI feedback email generator
-✅ Hiring pipeline tracking
-✅ Dark / Light mode UI
-✅ KPI metrics
-✅ SQLite database integration
+### 📊 Analytics Dashboard
+- Candidate performance metrics
+- Score visualization
+- Hiring pipeline insights
+- Recruiter leaderboard
 
-🧠 AI Capabilities
+### ⚖️ Candidate Comparison
+- Compare candidates side-by-side
+- Visual score comparison charts
 
-Resume semantic understanding
+### 💬 Resume Chat Assistant
+Ask questions about any candidate resume using AI.
 
-Skill extraction
+### 🎤 Interview Generator
+Generate technical + behavioral questions instantly.
 
-Candidate scoring
+### ✉️ Feedback Automation
+Send professional hiring feedback emails automatically.
 
-Personalized recruiter insights
+### 🔐 Authentication System
+- Multi-user login
+- Signup system
+- Role-based access (Admin / Recruiter)
+- Password hashing with bcrypt
 
-Automated hiring feedback
+### 🎨 Modern UI
+- Dark / Light theme toggle
+- Interactive charts
+- Clean enterprise UI
 
-Powered by LLM via Groq API
+---
 
-🏗️ Tech Stack
-👨‍💻 Backend
+## 🏗️ Tech Stack
 
-Python
+**Frontend**
+- Streamlit
 
-Streamlit
+**Backend**
+- Python
 
-SQLite
+**Database**
+- SQLite
 
-🤖 AI / Data
+**AI**
+- Groq API (LLaMA models)
+- Agno Agent Framework
 
-LLM Integration (Groq / OpenAI-compatible)
+**Data Visualization**
+- Plotly
 
-Pandas
+**Security**
+- bcrypt authentication
 
-Regex NLP
+---
 
-📊 Visualization
+## 📸 Screenshots
 
-Plotly
+> Add screenshots here after deploying
 
-🔐 Security
-
-Bcrypt password hashing
-
-📸 Screenshots
-
-👉 Add screenshots here later
-
-Example:
-
-![Dashboard](screenshots/dashboard.png)
-![Analyzer](screenshots/analyze.png)
-
-⚙️ Installation
-git clone https://github.com/sameermishra811466/candilyzer-enterprise-ats
-cd candilyzer-enterprise-ats
-
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
-
-streamlit run main.py
-
-🔑 Environment Setup
-
-Enter your Groq API key in the sidebar when running the app.
-
-👤 Default Login
-Username: admin  
-Password: admin123
-
-📊 Project Architecture
-Streamlit UI
-    ↓
-Authentication Layer
-    ↓
-AI Engine (LLM)
-    ↓
-SQLite Database
-    ↓
-Analytics Dashboard
-
-🚀 Future Roadmap
-
-Kanban hiring board
-
-Vector database semantic search
-
-Recruiter leaderboard
-
-Admin panel
-
-Supabase backend
-
-PDF report export
-
-Role-based permissions
-
-Real-time collaboration
-
-💡 Why This Project Matters
-
-This project simulates a real SaaS hiring platform and demonstrates:
-
-✔ AI product development
-✔ End-to-end system design
-✔ Production-ready architecture
-✔ Recruiter workflow automation
-
-👨‍💼 Author
-
-Sameer Kumar Mishra
-
-Aspiring AI Engineer | Data Analyst | ML Developer
-
-📍 India
-
-🤝 Connect With Me
-
-🔗 LinkedIn: (add your link)
-🔗 Portfolio: (optional)
-
-⭐ If you like this project
-
-Give it a ⭐ on GitHub — it helps a lot!
