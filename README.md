@@ -1,156 +1,149 @@
-<h1 align="center">🧠 Candilyzer</h1>
-<p align="center">
-  <strong>AI-Powered Candidate Analyzer for GitHub & LinkedIn</strong><br>
-  <em>Strict, expert-level screening for tech candidates</em>
-</p>
+🚀 Candilyzer Enterprise ATS
+🧠 AI-Powered Hiring Intelligence Platform
 
-<p align="center">
-  <a href="https://streamlit.io" target="_blank">
-    <img src="https://img.shields.io/badge/Built%20With-Streamlit-%23FF4B4B?style=for-the-badge" alt="Streamlit">
-  </a>
-  <a href="https://tokenfactory.nebius.com/" target="_blank">
-  <img src="https://img.shields.io/badge/Built%20With-Nebius%20Token%20Factory-%230073e6?style=for-the-badge" alt="Nebius Token Factory">
-</a>
-  <a href="https://agno.com" target="_blank">
-    <img src="https://img.shields.io/badge/Agno-Agent%20Framework-orange?style=for-the-badge" alt="Agno">
-  </a>
-</p>
+Built by Sameer Kumar Mishra
 
----
+🌟 Overview
 
-## 🔍 What is Candilyzer?
+Candilyzer Enterprise is a startup-level AI Applicant Tracking System (ATS) designed to help recruiters analyze candidates faster, smarter, and more accurately using AI.
 
-**Candilyzer** is an advanced, AI-powered app that strictly analyzes technical candidates based on their **GitHub** and **LinkedIn** profiles. Designed like a tough hiring manager, it gives you detailed evaluations, skill assessments, and a final decision — all with zero assumptions.
+It combines LLM intelligence, analytics dashboards, authentication, and hiring workflow tools into a single platform.
 
----
+This project demonstrates real-world skills in AI engineering, full-stack development, data analytics, and product design.
 
-## ⚡ Features
+🎯 Key Features
 
-- ✅ **Multi-Candidate Analyzer**  
-  Analyze _multiple_ GitHub users side-by-side for any job role.
+✅ AI Resume Analysis with scoring
+✅ Candidate comparison tool
+✅ Interactive hiring analytics dashboard
+✅ Recruiter authentication system
+✅ Resume chat assistant
+✅ Interview question generator
+✅ AI feedback email generator
+✅ Hiring pipeline tracking
+✅ Dark / Light mode UI
+✅ KPI metrics
+✅ SQLite database integration
 
-- ✅ **Single Candidate Profiler**  
-  Deep analysis of one candidate's GitHub + optional LinkedIn profile.
+🧠 AI Capabilities
 
-- ✅ **Strict Scoring System**  
-  Each candidate is scored out of 100 with a clear final verdict.
+Resume semantic understanding
 
-- ✅ **Professional-Grade Reports**  
-  No fluff. Only data-backed, AI-generated expert-level assessments.
+Skill extraction
 
-- ✅ **Powered by Agents**  
-  Uses Agno’s agent framework with Nebius + GitHubTools + ExaTools.
+Candidate scoring
 
----
+Personalized recruiter insights
 
-## 🧰 Tech Stack
+Automated hiring feedback
 
-| Component            | Tool/Library                      |
-| -------------------- | --------------------------------- |
-| **UI**               | 🧼 Streamlit                      |
-| **AI Model**         | 🧠 DeepSeek via Nebius            |
-| **Agent Framework**  | 🧠 Agno Agents                    |
-| **GitHub Analysis**  | 🛠️ GitHubTools                    |
-| **LinkedIn Parsing** | 🔎 ExaTools                       |
-| **Reasoning Engine** | 🧩 ReasoningTools + ThinkingTools |
+Powered by LLM via Groq API
 
----
+🏗️ Tech Stack
+👨‍💻 Backend
 
-## 🚀 How to Run Locally
+Python
 
-### 1. Clone the Repository
+Streamlit
 
-```bash
-git clone https://github.com/Arindam200/awesome-ai-apps.git
-cd advance_ai_agents/candidate_analyser
-```
+SQLite
 
-### 2. Install Requirements
+🤖 AI / Data
 
-```bash
-# Using pip
+LLM Integration (Groq / OpenAI-compatible)
+
+Pandas
+
+Regex NLP
+
+📊 Visualization
+
+Plotly
+
+🔐 Security
+
+Bcrypt password hashing
+
+📸 Screenshots
+
+👉 Add screenshots here later
+
+Example:
+
+![Dashboard](screenshots/dashboard.png)
+![Analyzer](screenshots/analyze.png)
+
+⚙️ Installation
+git clone https://github.com/sameermishra811466/candilyzer-enterprise-ats
+cd candilyzer-enterprise-ats
+
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
 pip install -r requirements.txt
 
-# Or using uv (recommended)
-uv sync
-```
-
-### 3. Get API Keys
-
-You'll need:
-
-- 🔑 **Nebius API Key** → [Get from Nebius Token Factory](https://tokenfactory.nebius.com/)
-- 🔑 **GitHub API Key** → [Generate Here](https://github.com/settings/tokens)
-- 🔑 **Exa API Key** → [Get from Exa](https://exa.ai)
-
-### 4. Launch App
-
-```bash
 streamlit run main.py
-```
 
----
+🔑 Environment Setup
 
-## 🖥️ How to Use
+Enter your Groq API key in the sidebar when running the app.
 
-### 🔁 Multi-Candidate Analyzer
+👤 Default Login
+Username: admin  
+Password: admin123
 
-1. Paste GitHub usernames (one per line)
-2. Enter target Job Role (e.g. Backend Engineer)
-3. Click **Analyze Candidates**
+📊 Project Architecture
+Streamlit UI
+    ↓
+Authentication Layer
+    ↓
+AI Engine (LLM)
+    ↓
+SQLite Database
+    ↓
+Analytics Dashboard
 
-### 🔎 Single Candidate Analyzer
+🚀 Future Roadmap
 
-1. Enter GitHub username
-2. (Optionally) Add LinkedIn profile link
-3. Enter Job Role (e.g. ML Engineer)
-4. Click **Analyze Candidate** 🔥
+Kanban hiring board
 
----
+Vector database semantic search
 
-## 📊 Evaluation Logic
+Recruiter leaderboard
 
-Candilyzer uses no assumptions and follows strict rules:
+Admin panel
 
-- 📁 **GitHub Repos** → code quality, structure, frequency
-- 🧑‍💻 **Commits** → consistency, activity, skills shown
-- 💼 **LinkedIn** → job titles, descriptions, keywords (via Exa)
-- 🎯 **Job Fit** → match with required skills & experience
-- 🧠 **AI Reasoning** → Final combined judgment with score
+Supabase backend
 
----
+PDF report export
 
-## 🧪 Powered by Agno Agents
+Role-based permissions
 
-Candilyzer builds a smart agent with:
+Real-time collaboration
 
-```python
-Agent(
-  model=Nebius(...),
-  tools=[
-    GithubTools(...),
-    ExaTools(...),
-    ThinkingTools(...),
-    ReasoningTools(...)
-  ]
-)
-```
+💡 Why This Project Matters
 
-**This agent:**
+This project simulates a real SaaS hiring platform and demonstrates:
 
-- Thinks before evaluating (🧠)
-- Gathers accurate GitHub + LinkedIn info (🔍)
-- Reasons like an expert hiring manager (📈)
-- Provides a final score with strict justification (✅❌)
+✔ AI product development
+✔ End-to-end system design
+✔ Production-ready architecture
+✔ Recruiter workflow automation
 
-## 🔗 Links
+👨‍💼 Author
 
-- [Agno Documentation](https://docs.agno.ai)
-- [Nebius](Nebius.com)
-- [Exa Search](https://exa.ai)
-- [GitHubTools Docs](https://github.com/features/copilot)
+Sameer Kumar Mishra
 
----
+Aspiring AI Engineer | Data Analyst | ML Developer
 
-> 💡 **Candilyzer is your AI hiring expert. Use it to save time, reduce bias, and get straight to the point.**
-> ** BY SAMEER KUMAR MISHRA **
+📍 India
+
+🤝 Connect With Me
+
+🔗 LinkedIn: (add your link)
+🔗 Portfolio: (optional)
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub — it helps a lot!
